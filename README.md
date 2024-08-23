@@ -54,12 +54,11 @@ Scatter plots of predictions vs. actual values were used to visualize model perf
 
 | Model            | MAE   | R² Score |
 |------------------|-------|----------|
-| Linear Regression| X.XX  | X.XX     |
-| Lasso Regression | X.XX  | X.XX     |
-| Ridge Regression | X.XX  | X.XX     |
-| ElasticNet       | X.XX  | X.XX     |
+| Linear Regression| 0.57  | 0.98     |
+| Lasso Regression | 1.13  | 0.94     |
+| Ridge Regression | 0.59  | 0.98     |
+| ElasticNet       | 1.85  | 0.87     |
 
-(Note: Replace `X.XX` with your actual results)
 
 ## Files
 
@@ -67,3 +66,5 @@ Scatter plots of predictions vs. actual values were used to visualize model perf
 - **ridge.pkl**: Trained Ridge regression model.
 - **scaler.pkl**: StandardScaler object for scaling features.
 
+## Conclusion
+- The project demonstrates the process of predicting forest fire indices using regression techniques. The Ridge regression model provided the best performance among the models tested.
